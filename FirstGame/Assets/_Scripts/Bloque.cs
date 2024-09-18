@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Bloque : MonoBehaviour
 {
+    public int resistencia = 1;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +15,6 @@ public class Bloque : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (resistencia <= 1) Destroy(this.gameObject);
     }
 }
