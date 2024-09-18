@@ -10,6 +10,14 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
+/FirstGame/[Ll]ibrary/
+/FirstGame/[Tt]emp/
+/FirstGame/[Oo]bj/
+/FirstGame/[Bb]uild/
+/FirstGame/[Bb]uilds/
+/FirstGame/[Ll]ogs/
+/FirstGame/[Mm]emoryCaptures/
+
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
 
