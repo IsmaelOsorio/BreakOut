@@ -17,4 +17,9 @@ public class Bloque : MonoBehaviour
     {
         if (resistencia <= 1) Destroy(this.gameObject);
     }
+
+    public virtual void RebotarBola()
+    {
+
+    }
 }
